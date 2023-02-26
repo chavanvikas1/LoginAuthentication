@@ -31,9 +31,9 @@ const navigate=useNavigate()
                             <input type="text" className='form-control ' placeholder='Create your password' onChange={(e)=>setpassword(e.target.value)}/>
                             <br />
 
-                            <button className='btn btn-outline-success' type='submit'>Sign Up</button>
+                            <button className='btn btn-outline-success' type='submit'>Sign In</button>
                         </form>
-                          <div><span>Don,t have an Accont ! </span> <a href="./Login">Sign In !</a></div>
+                          <div><span>Don,t have an Accont ! </span> <a href="./Login">Sign Up !</a></div>
                     </div>
                 </div>
              </div>
