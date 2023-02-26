@@ -28,7 +28,7 @@ const navigate=useNavigate()
                     
                             <input type="text" className='form-control ' placeholder='Enter Your Email' onChange={(e)=>setemail(e.target.value)}/>
                             <br />
-                            <input type="text" className='form-control ' placeholder='Create your password' onChange={(e)=>setpassword(e.target.value)}/>
+                            <input type="text" className='form-control ' placeholder='Enter your password' onChange={(e)=>setpassword(e.target.value)}/>
                             <br />
 
                             <button className='btn btn-outline-success' type='submit'>Sign In</button>
