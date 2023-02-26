@@ -11,7 +11,7 @@ export default function Ragister() {
     e.preventDefault()
   const {data}=await axios.post(`http://localhost:5000/create`,{username,email,password})
   console.log(data);
-  alert(data.data)
+  
   }
   
   
